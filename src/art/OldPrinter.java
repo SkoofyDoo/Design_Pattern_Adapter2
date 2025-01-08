@@ -1,4 +1,5 @@
 package art;
 
-public interface AlterDrucker {
+public interface OldPrinter {
+    void print(String message);
 }
