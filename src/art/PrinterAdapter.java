@@ -12,6 +12,7 @@ public class PrinterAdapter implements ModernPrinter {
     // Adapterparameter
     @Override
     public void printFormatted(String message, String font, String color) {
+        System.out.println("Formatting ignored. Using Old Printer");
         // Ausgabe des alten Printers mit Adapter
         oldPrinter.print(message);
     }
